@@ -60,7 +60,7 @@ function  playRound(event){
   } else if (computerSelection === 'scissors' && playerSelection === 'paper'){
 
     computerScore += 1;
-    roundResultOutput.innerHTML =   `${playerSelection} against ${computerSelection}. You Win!`;
+    roundResultOutput.innerHTML =   `${playerSelection} against ${computerSelection}. You Lose!`;
 
   }
 
